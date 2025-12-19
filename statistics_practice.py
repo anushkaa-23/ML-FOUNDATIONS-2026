@@ -7,5 +7,5 @@ data = np.random.normal(loc=0, scale=1, size=1000)
 
 # 2. Isse visualize karo (Seaborn use karke)
 sns.histplot(data, kde=True)
-plt.title("Mera Pehla Gaussian Distribution")
+plt.title("Gaussian Distribution")
 plt.show()
