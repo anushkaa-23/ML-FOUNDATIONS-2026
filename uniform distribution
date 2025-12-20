@@ -1,0 +1,15 @@
+"Standard Normal Distribution is the 'Gold Standard' with Mean=0 and SD=1."
+
+"Uniform Distribution means everything has an equal chance—the graph is a rectangle."
+
+"Discrete = Counting; Continuous = Measuring."
+
+
+
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+data=np.random.uniform(0,10,100)
+sns.histplot(data,kde="TRUE")
+plt.title("UNIFORM DISTRIBUTION FROM 0 TO 10-RECTANGLE SHAPE NOT BELL CURVE")
+plt.show()
