@@ -1,0 +1,7 @@
+1.We reject the NULL HYPOTHESIS when in reality is is false  -> GOOD
+
+1.We reject the NULL HYPOTHESIS when in reality is is true  -> TYPE1 ERROR
+
+1.We retain the NULL HYPOTHESIS when in reality is is false  -> TYPE2 ERROR
+
+1.We retain the NULL HYPOTHESIS when in reality is is TRUE  -> GOOD
