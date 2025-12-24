@@ -1,0 +1,28 @@
+                               ANALYSIS OF VARIANCE OR ANOVA TEST
+
+->USE TO COMPARE THE MEANS OF 2 OR MORE GROUPS
+
+->There are two important components in ANOVA that you will encounter frequently:
+
+1.Factors
+2.Levels
+
+Factors
+A factor is a variable that categorizes the data. For example, consider a medicine as a factor. This factor can have different categories or levels based on dosage.
+
+Levels
+Levels are the different categories within a factor. For instance, if the medicine factor has dosages of 5 mg, 10 mg, and 15 mg, these dosages represent the levels of the medicine factor.
+
+To summarize:
+
+Factor: Medicine
+Levels: 5 mg, 10 mg, 15 mg dosages
+
+the four key assumptions in ANOVA are:
+
+Normality: The sampling distribution of the mean is normally distributed.
+Absence of Outliers: Outlying scores must be removed from the dataset.
+Homogeneity of Variance: Population variances across different levels of each independent variable are equal.
+Independence and Randomness: Samples are independent and randomly selected.
+
+
