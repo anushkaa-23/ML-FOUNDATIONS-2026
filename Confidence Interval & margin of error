@@ -1,0 +1,4 @@
+confidence interval = point estimate + margin or error 
+                   OR
+confidence interval = point estimate - margin or error
+ i.e x bar + z(aplha/2) sigma/root n              for z test for t test replace z aplha by 2 with t alpha by 2
