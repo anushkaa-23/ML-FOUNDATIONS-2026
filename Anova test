@@ -26,3 +26,9 @@ Homogeneity of Variance: Population variances across different levels of each in
 Independence and Randomness: Samples are independent and randomly selected.
 
 
+3 types of annova 
+1. one way annova - one factor with atleast two levels ,these levels are independent.(example-tryind medication(factor) with different amt of doses(12mg,10mg...)(levels)
+2.Repeated measures annova - one factor with atleast two levels ,these levels are dependent.(example-running(factor) day 1 day 2 day 3(levels) performance vary so dependent)
+3.Factorial annova - two or more factors each of which with atleast two levels levels can be independent or dependent.(running(factor 1) based on gender(factor 2) male female(2 levels)days(levels)
+
+
