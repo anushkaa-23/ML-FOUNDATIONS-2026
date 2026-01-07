@@ -1,0 +1,29 @@
+1. MISSING COMPLETELY AT RANDOM(MCAR)-THERE IS NO SUCH REASON WHY DATA IS MISSING AND THE MISSING DATA IS DISTRIBUTED RANDOMLY THROUGHOUT
+2.MISSING AT RANDOM(MAR)-WHEN MISSING VALUES ARE DEPENDENT ON A SPECIFIC DATA LIKE(IN A SURVEY FORM MEN ARE NOT COMFORTABLE IN DISCLOSING THEIR SALARY OR INCOME AND WOMEN ARE NOT LIKELY TO DISCLOSE THEIR AGE)
+3.MISSING DATA NOT AT RANDOM(MNAR)-EXAMPLE(IN A SURVEY OF JOB SATISFACTION AND INCOME PEOPLE WHO ARE NOT SATISFIED WITH THEIR JOB WILL NOT TELL THIE INCOME)
+
+
+import seaborn as sns
+df=sns.load_dataset('titanic')
+df.head()
+
+#check missing values
+df.isnull()        // whereever missing values it will turn true and others will be false now
+df.isnull().sum()  //tells number of missing values by sum
+df.dropna(axis=1,inplace=true) // by doing this axis=1 we are droping columns now with null value not row and inplace keeps it permanent deleted or dropped
+
+IMPUTATION TECHNIQUES
+sns.displot(df['age'])
+
+df['age_mean']=df['age'].fillna(df['age'].mean()) // filling null values with mean
+df[['age_mean','age']]
+
+## MEAN IMPUTATION WORKS WELL WHEN WE HAVE NORMALLY DISTRIBUTED DATA
+
+// MEDIAN VALUE IMPUTATION - IF WE HAVE OUTLIERS IN A DATSET
+df['age_median']=df['age'].fillna(df['age'].median()) 
+
+//mode imputation techniques (for categorial data)
+df[df['embarked'].isnull()]
+
+
