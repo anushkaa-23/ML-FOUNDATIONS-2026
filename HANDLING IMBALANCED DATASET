@@ -1,0 +1,14 @@
+suppose we have a dataset with 100 yes and 900 no answeres that is the ratio of 9:1 which is imbalanced and biased so to handle this we have two techniques 
+1.up sampling - increase number of datapoints in minority
+2.down sampling - decrease number of datapoints in majority
+
+
+SMOTE(SYNTHETIC MINORITY OVERSAMPLING TECHNIQUE)
+IN DOWN OR UP SAMPLING IT CREATES NEW DATA POINTS OVER THE EXISTING DATA POINTS SO THE VARIANCE(WIDTH) REMAINS THE SAME BUT USING SMOTE IT CREATES A SYNTHETIC DATASET WHICH INCREASES THE WIDTH BY GIVING NEW DATA POINTS BETWEEN NEAREST EXISTING POINTS)
+
+
+
+
+
+
+
